@@ -1,0 +1,40 @@
+{
+  "scenarios": {
+    "task_manager": {
+      "name": "Task Manager Automation",
+      "url": "https://v0-small-task-manager-app.vercel.app/",
+      "instructions": [
+        "Login to the application using username 'user' and password 'pass'",
+        "Create a new task with title 'Complete automation project' and description 'Finish the browser automation system'",
+        "Mark the task as completed",
+        "Logout from the application"
+      ]
+    },
+    "ecommerce_example": {
+      "name": "E-commerce Automation Example",
+      "url": "https://example-ecommerce.com",
+      "instructions": [
+        "Navigate to the products page",
+        "Search for 'laptop'",
+        "Add the first laptop to cart",
+        "Proceed to checkout",
+        "Fill in shipping information",
+        "Complete the purchase"
+      ]
+    },
+    "form_filling": {
+      "name": "Form Filling Automation",
+      "url": "https://example-form-site.com",
+      "instructions": [
+        "Fill out the contact form with name 'John Doe', email 'john@example.com', and message 'Hello world'",
+        "Submit the form",
+        "Verify the submission was successful"
+      ]
+    }
+  },
+  "settings": {
+    "default_model": "openai/gpt-4.1-mini",
+    "max_retries": 3,
+    "wait_time": 2
+  }
+} 
