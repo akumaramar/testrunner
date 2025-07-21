@@ -1,0 +1,17 @@
+[project]
+name = "browseragent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "browser-use>=0.4.0",
+    "PyQt6>=6.5.0",
+    "python-dotenv>=1.0.0",
+    "psutil>=5.9.0",
+    "playwright>=1.40.0",
+    "langchain>=0.1.0",
+    "langchain-openai>=0.0.5",
+    "langchain-community>=0.3.27",
+    "lxml>=6.0.0",
+]
